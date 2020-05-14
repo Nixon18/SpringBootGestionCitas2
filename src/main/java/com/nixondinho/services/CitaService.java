@@ -48,8 +48,8 @@ public class CitaService {
 		try {
 			return repoCita.findByHorarioCitaAndPaciente(horarioCita, paciente).get();
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			// e.printStackTrace();
+			
+			
 			return null;
 		}
 	}
